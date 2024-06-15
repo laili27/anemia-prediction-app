@@ -39,7 +39,7 @@ with col4 :
 anemia_diagnosis = ""
 
 # membuat tombol untuk prediksi 
-if st.button ("memprediksi anemia"):
+if st.button ("Predicting Anemia"):
     anemia_prediction = anemia_model.predict ([[Pregnancies, Glucose,  BloodPressure,  SkinThickness, Insulin, BMI, AnemiaPedigreeFunction, Age  ]])
 
     if (anemia_prediction[0] == 0):
