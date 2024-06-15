@@ -5,7 +5,7 @@ import streamlit as st
 anemia_model = pickle.load (open("anemia_model.sav", "rb" ))
 
 # judul web 
-st.title ("memprediksi anemia")
+st.title ("ANEMIA PREDICTION")
 
 # membagi kolom 
 col1, col2, col3, col4 = st.columns (4)
