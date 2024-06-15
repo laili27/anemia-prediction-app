@@ -11,28 +11,28 @@ st.title ("memprediksi anemia")
 col1, col2, col3, col4 = st.columns (4)
 
 with col1 :
-    Pregnancies = st.text_input ("input nilai pregnancies")
+    Pregnancies = st.text_input ("Pregnancies")
 
 with col2 :
-    Glucose = st.text_input ("input nilai glucose")
+    Glucose = st.text_input ("Glucose")
 
 with col3 :
-    BloodPressure = st.text_input ("input nilai Bloodpressure")
+    BloodPressure = st.text_input ("Bloodpressure")
 
 with col4 :
-    SkinThickness = st.text_input ("input nilai SkinThickness")
+    SkinThickness = st.text_input ("SkinThickness")
 
 with col1 :
-    Insulin = st.text_input ("input nilai Insulin")
+    Insulin = st.text_input ("Insulin")
 
 with col2 :
-    BMI = st.text_input ("input nilai BMI")
+    BMI = st.text_input ("BMI")
 
 with col3 :
-    AnemiaPedigreeFunction = st.text_input (" input nilai AnemiaPedigreeFunction")
+    AnemiaPedigreeFunction = st.text_input ("Anemia Pedigree Function")
 
 with col4 :
-    Age = st.text_input ("inpu nilai Age")
+    Age = st.text_input ("Age")
 
 
 # kode untuk meemprediksi 
